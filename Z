@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #1e90ff;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0b65c2;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to My Website</h1>
+  <p>Made 100% Free using AI & GitHub Pages</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#study">Study</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Hello! I am a Class 11 student studying Business Studies, Economics, and Accountancy.
+    I am learning how to build websites and use AI tools for the future.
+  </p>
+</section>
+
+<section id="study">
+  <h2>My Learning</h2>
+  <ul>
+    <li>Business Studies</li>
+    <li>Economics</li>
+    <li>Accountancy</li>
+    <li>AI Tools & Websites</li>
+  </ul>
+  <button onclick="alert('Keep learning every day! 🚀')">
+    Click for Motivation
+  </button>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: example@email.com</p>
+  <p>This website is hosted free on GitHub Pages.</p>
+</section>
+
+<footer>
+  <p>© 2026 My Free Website</p>
+</footer>
+
+</body>
+</html>
+
+
+   
+
+
+
